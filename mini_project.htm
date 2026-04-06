@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Day Planner</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+<h1>My Day Planner</h1>
+</header>
+
+<nav>
+<ul>
+<li onclick="showHome()">Home</li>
+<li onclick="showProfile()">Profile</li>
+</ul>
+</nav>
+
+<main>
+
+
+<div id="homeSection">
+<div id="taskSection">
+
+<h2>Tasks & Reminders</h2>
+
+<input type="text" id="taskInput" placeholder="Enter a task">
+
+<button onclick="addTask()">Add Task</button>
+
+<ul id="taskList"></ul>
+
+</div>
+</div>
+
+
+<div id="profileSection" style="display:none;">
+
+<div class="profile-card">
+
+<img src="profile.jpeg" class="profile-pic">
+
+<h2>Bhuvi</h2>
+
+<p>Student | Web Developer Beginner</p>
+
+<p>Email: bhuvi@email.com</p>
+
+
+</div>
+
+</div>
+
+</main>
+
+
+
+
+<footer>
+<p> Created by Bhuvi for ADP © 2026 <br>Day Planner</p>
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
